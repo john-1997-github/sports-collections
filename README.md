@@ -34,6 +34,7 @@ Things you may want to cover:
 ### Association
 - has_many :items
 - has_many :purchase_histories
+- has_many :comments
 
 ## items テーブル
 | Column | Type | Options |
@@ -47,6 +48,7 @@ image < active storage
 ### Association
 - has_one :purchase_history
 - belongs_to :user
+- has_many :comments
 
 ## purchase_histories テーブル
 | Column | Type | Options |
@@ -71,3 +73,17 @@ image < active storage
 - belongs_to :user
 - belongs_to :item
 - has_one :purchase_history
+
+
+## comments テーブル
+
+| Column        | Type       | Options                        |
+| ------------- | ---------- | ------------------------------ |
+| text          | text       | null: false                    |
+| user          | references | null: false, foreign_key: true |
+| prototypes    | references | null: false, foreign_key: true |
+
+### Association
+
+- belongs_to :user
+- belongs_to :item

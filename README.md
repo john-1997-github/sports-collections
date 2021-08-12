@@ -27,7 +27,7 @@ Things you may want to cover:
 ## users テーブル
 | Column | Type | Options |
 | ------------------ | ------ | ----------------------  |
-| nickname           | string | null: false             |
+| name               | string | null: false             |
 | email              | string | null: false unique true |
 | encrypted_password | string | null: false             |
 

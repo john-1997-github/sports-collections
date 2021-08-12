@@ -1,0 +1,47 @@
+.header {
+  background-color: navy;
+  margin-bottom: 48px;
+  padding: 20px 0;
+
+}
+.inner {
+  width: 1000px;
+  margin: 0 auto;
+  color: #dfe6eb;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #dfe6eb;
+  font-size: 10px;
+}
+
+.nav_left{
+  font-size: 30px;
+}
+
+.nav__btn{
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 0.8em;
+  color: #dfe6eb;
+  text-decoration: none;
+  user-select: none;
+  border: 1px #e0e6eb solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+}
+
+
+.nav__logout{
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 0.8em;
+  color: #87CEFA;
+  text-decoration: none;
+  user-select: none;
+}
+.nav__logout:hover{
+  opacity: 0.5;
+}

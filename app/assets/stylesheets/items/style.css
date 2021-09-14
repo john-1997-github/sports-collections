@@ -1,8 +1,7 @@
 .header {
   background-color: navy;
-  margin-bottom: 48px;
   padding: 20px 0;
-
+  height: 40px;
 }
 .inner {
   width: 1000px;
@@ -44,4 +43,23 @@
 }
 .nav__logout:hover{
   opacity: 0.5;
+}
+
+.left_side_rooms {
+  background-color: #252661;
+  height: calc(100vh - 30px);
+  width: 200px;
+}
+
+
+.left_side_contents{
+  display: flex;
+  flex-direction:column;
+}
+
+.left_side_content1{
+  padding: 30px;
+}
+.wheat{
+  color:#dfe6eb;
 }

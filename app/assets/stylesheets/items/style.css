@@ -45,10 +45,17 @@
   opacity: 0.5;
 }
 
+
+.wrapper{
+display: flex;
+width: 100vw;
+height: 100vh;
+}
+
+
 .left_side_rooms {
-  background-color: #252661;
-  height: calc(100vh - 30px);
-  width: 200px;
+background-color: #252661;
+width: calc(100% - 1250px);
 }
 
 
@@ -62,4 +69,14 @@
 }
 .wheat{
   color:#dfe6eb;
+}
+
+.right_side_room{
+  width: calc(100% - 100px);
+  color:blue;
+  flex-direction: column;
+}
+
+.right_side_contents2{
+  color:black;
 }

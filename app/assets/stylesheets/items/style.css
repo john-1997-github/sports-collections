@@ -1,8 +1,7 @@
 .header {
   background-color: navy;
-  margin-bottom: 48px;
   padding: 20px 0;
-
+  height: 40px;
 }
 .inner {
   width: 1000px;
@@ -44,4 +43,40 @@
 }
 .nav__logout:hover{
   opacity: 0.5;
+}
+
+
+.wrapper{
+display: flex;
+width: 100vw;
+height: 100vh;
+}
+
+
+.left_side_rooms {
+background-color: #252661;
+width: calc(100% - 1250px);
+}
+
+
+.left_side_contents{
+  display: flex;
+  flex-direction:column;
+}
+
+.left_side_content1{
+  padding: 30px;
+}
+.wheat{
+  color:#dfe6eb;
+}
+
+.right_side_room{
+  width: calc(100% - 100px);
+  color:blue;
+  flex-direction: column;
+}
+
+.right_side_contents2{
+  color:black;
 }

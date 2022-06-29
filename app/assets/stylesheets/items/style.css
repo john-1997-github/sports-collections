@@ -74,6 +74,7 @@ width: calc(100% - 1250px);
 .right_side_room{
   width: calc(100% - 100px);
   color:blue;
+  display: flex;
   flex-direction: column;
 }
 
